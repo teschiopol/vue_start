@@ -3,7 +3,8 @@
     data() {
       return {
         count: 0,
-        titleClass: 'title'
+        titleClass: 'title',
+        text: ''
       }
     },
     methods:{
@@ -16,6 +17,8 @@
 
 <template>
   <button @click="increment" v-bind:class="titleClass">Count is: {{ count }}</button>
+  <input v-model="text" placeholder="Type here">
+  <p>{{ text }}</p>
 </template>
 
 <style scoped>
