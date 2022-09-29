@@ -10,7 +10,9 @@ Visit: https://vuejs.org/guide/quick-start.html
 
 First example in ``getStart``
 
-Note: I'll use Options API
+First project sample in ``firstProject``
+
+Note: I prefer to use Options API
 
 ## 💊 Some pills
 
