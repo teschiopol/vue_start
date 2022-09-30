@@ -76,7 +76,49 @@
         </v-col>
         <!--- About --->
         <v-col cols="12" class="mt-10">
-          <!--- TODO:21 -->
+          <div class="child1">
+            <h1 class="light-blue--text text--darken-4 mt-4 number">4</h1>
+            <h3 class="white--text mt-4">Years Experience</h3>
+          </div>
+          <div class="child2 mRight">
+            <v-row>
+              <v-col cols="12" class="childcol">
+                <div class="child2 mButton padding bgcolor1">
+                  <h1 class="light-blue--text text--darken-4">65+</h1>
+                  <p class="grey--text">Clients</p>
+                </div>
+              </v-col>
+              <v-col cols="12" class="childcol">
+                <div class="child2 padding bgcolor1">
+                  <h1 class="light-blue--text text--darken-4">10.000+</h1>
+                  <p class="grey--text">Hours Coded</p>
+                </div>
+              </v-col>
+            </v-row>
+          </div>
+          <div class="child2">
+            <v-row>
+              <v-col cols="12" class="childcol">
+                <div class="child2 mButton padding bgcolor1">
+                  <h1 class="light-blue--text text--darken-4">65+</h1>
+                  <p class="grey--text">Clients</p>
+                </div>
+              </v-col>
+              <v-col cols="12" class="childcol">
+                <div class="child2 padding bgcolor1">
+                  <h1 class="light-blue--text text--darken-4">10.000+</h1>
+                  <p class="grey--text">Hours Coded</p>
+                </div>
+              </v-col>
+            </v-row>
+          </div>
+        </v-col>
+        <v-col cols="3" offset-md="3" id="about">
+          <h4 class="white--text">FEATURED PROJECTS</h4>
+          <p class="grey--text">Insights & Details</p>
+        </v-col>
+        <v-col md="3" class="text-end">
+          <v-btn tile color="#03a9f4" dark>View All</v-btn>
         </v-col>
       </v-row>
     </v-container>
