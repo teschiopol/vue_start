@@ -3,6 +3,7 @@
     <Navbar />
     <v-container fluid>
       <v-row>
+        <!--- Home --->
         <v-col cols="6">
           <v-img src="home_unicorn.png" contain max-height="500px"></v-img>
         </v-col>
@@ -15,6 +16,67 @@
             during the journey that We are going to start...
           </p>
           <v-btn title color="light-blue" dark>About Me</v-btn>
+        </v-col>
+        <!--- Projects --->
+        <v-col cols="12" class="pad">
+          <div class="first" id="project">
+            <v-row>
+              <v-col cols="12">
+                <div class="child bgcolor1">
+                  <v-icon color="#03a9f4" x-large class="ml-3">
+                    mdi-database
+                  </v-icon>
+                  <h3 class="white--text ml-3 mt-4">
+                    Web Platform
+                  </h3>
+                  <p class="grey--text ml-3 mt-6">
+                    Analysis <br>
+                    & Data Management
+                  </p>
+                  <v-btn color="#03a9f4" dark text>
+                    Know More
+                    <v-icon right>mdi-arrow-right</v-icon>
+                  </v-btn>
+                </div>
+                <div class="child bgcolor2">
+                  <v-icon x-large class="ml-3" dark>
+                    mdi-scale
+                  </v-icon>
+                  <h3 class="white--text ml-3 mt-4">
+                    AI Algorithm
+                  </h3>
+                  <p class="black--text ml-3 mt-6">
+                    Develop and Deploy<br>
+                    custom AI solutions
+                  </p>
+                  <v-btn dark text>
+                    Know More
+                    <v-icon right>mdi-arrow-right</v-icon>
+                  </v-btn>
+                </div>
+                <div class="child bgcolor1">
+                  <v-icon color="#03a9f4" x-large class="ml-3">
+                    mdi-tree
+                  </v-icon>
+                  <h3 class="white--text ml-3 mt-4">
+                    Company Integrations
+                  </h3>
+                  <p class="grey--text ml-3 mt-6">
+                    Offline & Online <br>
+                    process automation
+                  </p>
+                  <v-btn color="#03a9f4" dark text>
+                    Know More
+                    <v-icon right>mdi-arrow-right</v-icon>
+                  </v-btn>
+                </div>
+              </v-col>
+            </v-row>
+          </div>
+        </v-col>
+        <!--- About --->
+        <v-col cols="12" class="mt-10">
+          <!--- TODO:21 -->
         </v-col>
       </v-row>
     </v-container>

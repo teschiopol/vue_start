@@ -19,4 +19,3 @@ Note: I prefer to use Options API
 v-model: syntax sugar
 
 v-if / v-else: render dynamic
-
