@@ -120,19 +120,79 @@
         <v-col md="3" class="text-end">
           <v-btn tile color="#03a9f4" dark>View All</v-btn>
         </v-col>
+        <v-col md="3" offset-md="3">
+          <v-card class="pa-2 py-12" outlined tile height="250px" color="#1E1E1E" >
+            <v-img src="" contain></v-img>
+          </v-card>
+        </v-col>
+        <v-col md="3" >
+          <v-card class="pa-2 py-12" outlined tile height="250px" color="#1E1E1E" >
+            <v-img src="" contain></v-img>
+          </v-card>
+        </v-col>
+        <v-col md="3" offset-md="3">
+          <v-btn color="white" dark text class="ml-n4">
+            Data Analysis
+          </v-btn><br>
+          <v-btn color="#03a9f4" dark text class="ml-n4">
+            Know More
+            <v-icon right>mdi-arrow-right</v-icon>
+          </v-btn>
+        </v-col>
+        <v-col md="3" >
+          <v-btn color="white" dark text class="ml-n4">
+            Trading Algorithm
+          </v-btn><br>
+          <v-btn color="#03a9f4" dark text class="ml-n4">
+            Know More
+            <v-icon right>mdi-arrow-right</v-icon>
+          </v-btn>
+        </v-col>
+        <v-col cols="12" class="pad topInverse">
+          <div class="second">
+            <div class="secondChild" id="contact">
+              <v-row>
+                <v-col cols="7">
+                  <h1 class="white--text">
+                    Let's work together on<br>your next project
+                  </h1>
+                  <p class="grey--text">
+                    Every opportunity is a new level of life!
+                  </p>
+                </v-col>
+                <v-col cols="5">
+                  <v-btn tile color="#03a9f4" dark class="mt-16">
+                    Contact
+                  </v-btn>
+                </v-col>
+              </v-row>
+            </div>
+          </div>
+          <v-toolbar class="topTolbar" color="#111111" dark flat>
+            <div style="position: absolute; margin-right: auto; margin-left: auto; left: 0; right: 0; text-align: center;">
+              <v-btn text>Home</v-btn>
+              <v-btn text>Project</v-btn>
+              <v-btn text>About</v-btn>
+              <v-btn text>Contact</v-btn>
+            </div>
+          </v-toolbar>
+        </v-col>
       </v-row>
     </v-container>
+    <Footer />
   </v-app>
 </template>
 
 <script>
   import Navbar from "@/components/Navbar";
+  import Footer from "@/components/Footer";
 
   export default { // eslint-disable-next-line
     name: 'Home',
 
     components: {
       Navbar,
+      Footer
     },
   }
 </script>
