@@ -71,9 +71,6 @@
                   </v-btn>
                 </div>
               </v-col>
-            </v-row>
-          </div>
-        </v-col>
         <!--- About --->
         <v-col cols="12" class="mt-10">
           <div class="child1">
@@ -113,6 +110,9 @@
             </v-row>
           </div>
         </v-col>
+      </v-row>
+      </div>
+      </v-col>
         <v-col cols="3" offset-md="3" id="about">
           <h4 class="white--text">FEATURED PROJECTS</h4>
           <p class="grey--text">Insights & Details</p>
